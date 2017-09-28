@@ -6,28 +6,28 @@ function takeANumber(katzDeliLine, newname) {
 }
 
 function nowServing() {
-  if(katzDeliLine.length === 0)
+  if(katzDeli.length === 0)
   {
     return "There is nobody waiting to be served!"
   }
   else {
-    var first = katzDeliLine[0]
-    katzDeliLine.unshift
+    var first = katzDeli[0]
+    katzDeli.unshift
     return `Currently serving ${first}.`
   }
 }
 
 function currentLine() {
-  if(katzDeliLine.length === 0)
+  if(katzDeli.length === 0)
   {
     return "The line is currently empty."
   }
   else {
     var output = "The line is currently: "
     var i = 0
-    while(i < katzDeliLine.length)
+    while(i < katzDeli.length)
     {
-      output = output + (i+1) + "." + katzDeliLine[i] + ", ";
+      output = output + (i+1) + "." + katzDeli[i] + ", ";
       i++
     }
     return output
