@@ -37,7 +37,6 @@ function currentLine(katzDeliLine) {
 
       i++
     }
-    output
     return output
   }
 }
