@@ -34,10 +34,10 @@ function currentLine(katzDeliLine) {
         output = output + (i+1) + ". " + katzDeliLine[i];
       }
     }
-      
+
       i++
     }
-    output 
+    output
     return output
   }
 }
