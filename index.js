@@ -31,7 +31,7 @@ function currentLine(katzDeliLine) {
         output = output + (i+1) + ". " + katzDeliLine[i];
       }
       else {
-        output = output + (i+1) + ". " + katzDeliLine[i];
+        output = output + (i+1) + ". " + katzDeliLine[i] + ", ";
       }
       i++
     }
