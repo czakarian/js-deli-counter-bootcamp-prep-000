@@ -33,8 +33,6 @@ function currentLine(katzDeliLine) {
       else {
         output = output + (i+1) + ". " + katzDeliLine[i];
       }
-    }
-
       i++
     }
     return output
